@@ -8,7 +8,7 @@ const filmSchema = new mongoose.Schema({
     actors:{
         type: [String]
     },
-    genre: {
+    genres: {
         type:[String]
     },
     ticketPrice: {
