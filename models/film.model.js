@@ -20,7 +20,7 @@ const filmSchema = new mongoose.Schema({
     revenue: {
         type: Number
     },
-    isSuperHit: {
+    isSuperhit: {
         type: Boolean
     }
     
