@@ -108,7 +108,7 @@ app.get("/film/details/:id", async (req, res) => {
 // POST route to update film details by id
 app.post("/film/update/:id", async (req, res) => {
     let id = req.params.id;
-    let updatedData = req.body();
+    let updatedData = req.body;
     try {
         let response = await updateFilmDetailsById(id, updatedData);
         if (response === null) {
